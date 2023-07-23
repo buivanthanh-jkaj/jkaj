@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 10px;
+}
+
+.box1 {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 2px;
+    background: silver;
+}
+
+.box2 {
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.box2 div input {
+    margin: 20px;
+    font-size: 20px;
+    width: 100%;
+    border: none;
+}
+
+.box3 {
+    padding: 20px;
+}
+
+.box3 label {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.box3 textarea {
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border-color: white;
+    padding: 15px;
+}
+
+.box3 textarea:focus {
+    outline: none;
+    border: aqua solid;
+}
+
+.box4 {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    margin: 20px;
+}
+
+table,
+td,
+th {
+    border: 0px solid;
+    border-collapse: collapse;
+    padding: 40px 10px;
+}
+
+.box5 .b1 {
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    background: aqua;
+    width: 10%;
+    padding: 15px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.box5 .b2 {
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    background: aqua;
+    width: 10%;
+    padding: 15px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 0px;
+}

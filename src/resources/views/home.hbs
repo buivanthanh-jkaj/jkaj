@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>店舗</title>
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+        />
+
+        <script
+            type="text/javascript"
+            src="https://unpkg.com/xlsx@0.15.1/dist/xlsx.full.min.js"
+        ></script>
+    </head>
+    <body>
+        <div class="box2">
+            <div class="no1">
+                <label for="no1">部門No</label><br />
+                <input type="number" id="no1" placeholder="選択してください" />
+            </div>
+            <div class="no2">
+                <label for="no2">作成者</label><br />
+                <input type="hidden" id="no2" />
+            </div>
+            <div class="no3">
+                <label for="no3">日</label><br />
+                <input type="datetime-local" id="no3" />
+            </div>
+            <div class="no4">
+                <label for="no4">時間</label><br />
+                <input type="datetime-local" id="no4" />
+            </div>
+        </div>
+        <div class="box3">
+            <label for="comment">comment</label><br />
+            <textarea id="comment" cols="100%" rows="10"></textarea>
+        </div>
+
+        <div class="box4">
+            <input type="file" id="excel_file" />
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>作業項目</th>
+                    <th>JAN</th>
+                    <th>商品名</th>
+                    <th>陳列場所</th>
+                    <th>指示売価</th>
+                    <th>添付</th>
+                    <th>添付ファイル</th>
+                    <th>POP</th>
+                    <th>指示内容</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                    <th>7</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td colspan="15" id="t1"></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td colspan="15" id="t2"></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="box5">
+            <button class="b1">登録</button>
+            <button class="b2">キャンセル</button>
+        </div>
